@@ -1,0 +1,20 @@
+.full-height {
+    height: 100%;
+}
+
+.blank-screen {
+    background: black;
+}
+
+.js-logo {
+    background: url('../img/js.logo.svg');
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    opacity: 0;
+}
